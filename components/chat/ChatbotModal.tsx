@@ -39,7 +39,7 @@ const ChatbotModal: React.FC<ChatbotModalProps> = ({ isOpen, onClose }) => {
 
       try {
         const response = await axios.post(
-          "https://new-chatbot-fastapi.vercel.app/chat",
+          "https://chatbot-api-indol.vercel.app/chat",
           {
             message: userMessage,
             userId: userId,
